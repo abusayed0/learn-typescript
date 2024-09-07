@@ -18,11 +18,11 @@
 
 
 
-    const getPropertyValue = <X, Y extends keyof X> (obj: X, key: Y) => {
+    const getPropertyValue = <X, Y extends keyof X>(obj: X, key: Y) => {
         return obj[key];
     };
 
-    const user:{
+    const user: {
         name: string;
         age: number;
         profession: string;
@@ -33,5 +33,5 @@
     };
 
 
-    const result1= getPropertyValue(user, "profession");
+    const result1 = getPropertyValue(user, "profession");
 }

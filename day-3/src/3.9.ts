@@ -12,6 +12,7 @@
         studentId: number;
         study(): void;
         sleep(): void;
+       
     }
 
     class Student1 implements StudentInterface {

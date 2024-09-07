@@ -1,4 +1,7 @@
 {
+
+/* type alias */
+
 type Student = {
     name: string;
     section: string;

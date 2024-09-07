@@ -45,7 +45,8 @@ const student1 : StudentInformation = {
     contact: "010000000000000",
     class: "xl",
     grade: "f",
-    roll:3
+    roll:3,
+    
 }
 
 

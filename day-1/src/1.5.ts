@@ -3,11 +3,11 @@
 const user : {
     name: string;
     age: number;
-    profession: string;
+    readonly profession: string;
     type: string;
     isMarried:boolean;
-    wife?: string;
-    readonly country: "england"
+    wife?: string; //optional
+    country: "england" // literal
 } = {
     name: "joe root",
     age : 28,

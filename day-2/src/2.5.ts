@@ -17,7 +17,7 @@
     // type alias with generic 
     type MakeArrayWithValuesGeneric = <T>(...values: T[]) => T[];
 
-    const makeArrayWithValuesGeneric1: MakeArrayWithValuesGeneric = (...values) => {
+    const makeArrayWithValuesGeneric1: MakeArrayWithValuesGeneric= (...values) => {
         return [...values]
     };
 
@@ -55,3 +55,4 @@
 
 
 }
+
